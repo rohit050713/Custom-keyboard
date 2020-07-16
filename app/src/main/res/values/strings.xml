@@ -1,0 +1,305 @@
+<resources>
+    <string name="app_name">Custom Keyboard</string>
+
+    //Terms and condition
+    <string name="terms_condition">Terms &amp; Conditions</string>
+    <string name="terms_content">Lorem ipsum  adipiscing elit. Nam ut rhoncus justo, vel tempor metus. Etiam nunc ex, lacinia non elit at, blandit sodales neque. Donec sed leo ac massa semper mattis id nec enim. Aliquam cursus magna a elit elementum. Vestibulum elit libero, placerat at fermentum ultricies, molestie a magna. Vestibulum egestas augue urna, in accumsan arcu tristique eget. Donec quis sodales massa, ac porta sapien. Nulla porta libero vitae sapien tincidunt volutpat nec laoreet urna.
+    Lorem ipsum  adipiscing elit. Nam ut rhoncus justo, vel tempor metus. Etiam nunc ex, lacinia non elit at, blandit sodales neque. \n \nDonec sed leo ac massa semper mattis id nec enim. Aliquam cursus magna a elit elementum. Vestibulum elit libero, placerat at fermentum ultricies, molestie a magna. Vestibulum egestas augue urna, in accumsan arcu tristique eget. Donec quis sodales massa, ac porta sapien. Nulla porta libero vitae sapien tincidunt volutpat nec laoreet urna.
+    Donec placerat at fermentum ultricies, molestie a magna. Vestibulum egestas augue urna, in accumsan arcu tristique eget. Donec quis sodales massa, ac porta sapien. Nulla porta libero vitae sapien tincidunt volutpat nec laoreet urna.</string>
+    <string name="terms_check">I agree to MISTARI Terms &amp; Conditions.</string>
+
+    //Create account
+    <string name="create_mistari_account">Create Mistari Account</string>
+    <string name="email_address">Email Address</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="optional">Optional</string>
+    <string name="password">Password</string>
+    <string name="cnf_password">Confirm Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="sign_in">Sign In</string>
+    <string name="v">V</string>
+    <string name="phont_error">*Please enter the valid phone number.</string>
+    <string name="cnf_pswrd_error">*Please retype the password.</string>
+
+    //forgot password
+    <string name="forgot_password_title">Forgot Password</string>
+    <string name="forgot_content">Please enter registered email address we will send otp on your mail</string>
+    <string name="forgot_email_error">*Please enter the valid email address.</string>
+    <string name="submit">Submit</string>
+
+    //login option
+    <string name="google">Google</string>
+    <string name="facebook">Facebook</string>
+    <string name="skip">Skip</string>
+
+    //main activity
+    <string name="install_mistari">Install Mistari</string>
+    <string name="continue_setup">Continue Setup</string>
+    <string name="enable_mistari">Enable Mistari</string>
+    <string name="choose_mistari">Choose Mistari</string>
+    <string name="language_theme">Languages &amp; Themes</string>
+    <string name="installation">Installation Successful</string>
+    <string name="finish">Finish</string>
+    <string name="help">help?</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="start_setup">Start Setup</string>
+
+    //otp
+    <string name="otp">OTP</string>
+    <string name="otp_content">Please enter 4 digit otp here</string>
+    <string name="otp_hint">****</string>
+<<<<<<< HEAD
+    <string name="recieve">"Didn't receive verification email?"</string>
+=======
+<<<<<<< HEAD
+    <string name="recieve">"Didn't receive verification email?"</string>
+=======
+<<<<<<< HEAD
+    <string name="recieve">"Didn't receive verification email?"</string>
+=======
+<<<<<<< HEAD
+    <string name="recieve">"Didn't receive verification email?"</string>
+=======
+<<<<<<< HEAD
+    <string name="recieve">"Didn't receive verification email?"</string>
+=======
+<<<<<<< HEAD
+    <string name="recieve">"Didn't receive verification email?"</string>
+=======
+<<<<<<< HEAD
+    <string name="recieve">"Didn't receive verification email?"</string>
+=======
+<<<<<<< HEAD
+    <string name="recieve">"Didn't receive verification email?"</string>
+=======
+    <string name="recieve">"Didn't receive verification Email?"</string>
+>>>>>>> caf7bddc2d52f3dc15f52cfc660b51e301f0af2a
+>>>>>>> b2a070ddbd2876710366d68b5da74da982219425
+>>>>>>> 4355c2a8a73521d1ecb4d1f751d6548779fa868a
+>>>>>>> e974059dd0de90e7d3240d726fc2feded53ec5eb
+>>>>>>> e59287e117049324a3d5334b2c013d43692f6d1a
+>>>>>>> d09538a264c42fde81a92a43fa207bd6ed210a7f
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+    <string name="resend">Resend</string>
+    <string name="otp_error">*Please enter the valid OTP.</string>
+
+    //sign in
+    <string name="login_to_mistari">Login to Mistari</string>
+    <string name="email_error">*Please enter the valid email address.</string>
+    <string name="pswrd_error">*Please enter the valid password.</string>
+    <string name="forgot_pswrd">Forgot Password?</string>
+    <string name="star">*</string>
+
+    //verify otp
+    <string name="verify_otp_title">Verify your Email Address</string>
+    <string name="verify_otp_content">To verify your email address, enter the code sent to your email</string>
+    <string name="confirm">Confirm</string>
+    <string name="verify_otp_error">*Please enter the valid code.</string>
+
+    //settings
+    <string name="setting">Settings</string>
+    <string name="my_account">My Account</string>
+    <string name="keyboard">Enable keyboards \n and languages</string>
+    <string name="alphabet">Tweaks and More</string>
+    <string name="touch">Keyboard effects \n and experience</string>
+    <string name="configure">Configure corrections \n behavior \n and other dictionaries</string>
+    <string name="more">And More…</string>
+    <string name="language">Languages</string>
+    <string name="theme">Themes</string>
+    <string name="chat">Chat</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="logout">Log Out</string>
+    <string name="christopher">Christopher Allan</string>
+    <string name="christopher_email">Christopher10@mistari.co.ke</string>
+    <string name="followers">+254 700 000000</string>
+    <string name="update_pswrd">Update Password</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="recycle_num1">659</string>
+    <string name="recycle_save">SAVED WORDS</string>
+    <string name="recycle_edit">View/Edit my saved words</string>
+    <string name="clear">CLEAR</string>
+    <string name="typing_data">TYPING DATA</string>
+
+    //dialog reset password
+    <string name="x">X</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="enter_new_password">Enter New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="reset_password_error">*Please enter the valid new password.</string>
+    <string name="reset_cnf_password_error">*Please retype the new password.</string>
+
+    //home
+    <string name="slide1">Slide 1</string>
+    <string name="slide2">Slide 2</string>
+    <string name="slide3">Slide 3</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="the_ultimate">THE ULTIMATE</string>
+    <string name="keyboard1">KEYBOARD</string>
+    <string name="thats">that makes your Every</string>
+    <string name="typing">TYPING MOMENT SPECIAL</string>
+    <string name="experience">EXPERIENCE PRIVACY</string>
+    <string name="mchat">MCHAT</string>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> b2a070ddbd2876710366d68b5da74da982219425
+>>>>>>> 4355c2a8a73521d1ecb4d1f751d6548779fa868a
+>>>>>>> e974059dd0de90e7d3240d726fc2feded53ec5eb
+>>>>>>> e59287e117049324a3d5334b2c013d43692f6d1a
+>>>>>>> d09538a264c42fde81a92a43fa207bd6ed210a7f
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+
+    // dialog reset code
+    <string name="enter_reset_code">Enter Reset Code</string>
+    <string name="send_to_email">Enter the code send to your email</string>
+    <string name="valid_code">*Please enter the valid code.</string>
+
+    //password success
+    <string name="password_update">Password Updated \n Successfully!</string>
+    <string name="done">Done</string>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> e974059dd0de90e7d3240d726fc2feded53ec5eb
+>>>>>>> e59287e117049324a3d5334b2c013d43692f6d1a
+>>>>>>> d09538a264c42fde81a92a43fa207bd6ed210a7f
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+
+    // fragment my words
+    <string name="my_words">My Words</string>
+    <string name="search">Search</string>
+    <string name="my_languages">My Languages</string>
+    <string name="english">English(US)</string>
+    <string name="add">Add</string>
+    <string name="edit">View/Edit</string>
+    <string name="swahil">Swahili</string>
+    <string name="kiswahi">Kiswahili</string>
+    <string name="abstrct">Abstract</string>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> e59287e117049324a3d5334b2c013d43692f6d1a
+>>>>>>> d09538a264c42fde81a92a43fa207bd6ed210a7f
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+
+    //add word dialog
+    <string name="add_word">Add Words</string>
+    <string name="type_your_word">Type your words</string>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+    <string name="insert">insert commas between words.</string>
+    <string name="enter_words_error">*Please enter the words.</string>
+    <string name="language_error">*Please select a language.</string>
+
+    //edit profile
+    <string name="name">Enter Name</string>
+    <string name="name_error">*Please enter the valid name.</string>
+    <string name="edit2">Edit</string>
+
+<<<<<<< HEAD
+    //custom themes
+    <string name="custom_themes">Custom Themes</string>
+    <string name="default1">Default</string>
+    <string name="one_two">123!#()</string>
+    <string name="a">A</string>
+    <string name="b">B</string>
+    <string name="c">C</string>
+    <string name="d">D</string>
+    <string name="e">E</string>
+    <string name="f">F</string>
+    <string name="g">G</string>
+    <string name="h">H</string>
+    <string name="i">I</string>
+    <string name="j">J</string>
+    <string name="k">K</string>
+    <string name="l">L</string>
+    <string name="m">M</string>
+    <string name="n">N</string>
+    <string name="o">O</string>
+    <string name="p">P</string>
+    <string name="q">Q</string>
+    <string name="r">R</string>
+    <string name="s">S</string>
+    <string name="t">T</string>
+    <string name="u">U</string>
+    <string name="V">V</string>
+    <string name="w">W</string>
+    <string name="X">X</string>
+    <string name="y">Y</string>
+    <string name="z">Z</string>
+    <string name="comma">","</string>
+    <string name="and">"&amp;"</string>
+    <string name="question_mark">"?"</string>
+
+    <string name="kenyan">Kenyan</string>
+    <string name="custom">Custom</string>
+    <string name="design">Design your theme</string>
+
+
+=======
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+    <string name="insert">insert commas between words.</string>
+   <string name="enter_words_error">*Please enter the words.</string>
+    <string name="language_error">*Please select a language.</string>
+
+=======
+    <string name="insert">insert commas between words</string>
+
+
+=======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> caf7bddc2d52f3dc15f52cfc660b51e301f0af2a
+>>>>>>> b2a070ddbd2876710366d68b5da74da982219425
+>>>>>>> 4355c2a8a73521d1ecb4d1f751d6548779fa868a
+>>>>>>> e974059dd0de90e7d3240d726fc2feded53ec5eb
+>>>>>>> e59287e117049324a3d5334b2c013d43692f6d1a
+>>>>>>> d09538a264c42fde81a92a43fa207bd6ed210a7f
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+</resources>

@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> e974059dd0de90e7d3240d726fc2feded53ec5eb
+>>>>>>> e59287e117049324a3d5334b2c013d43692f6d1a
+>>>>>>> d09538a264c42fde81a92a43fa207bd6ed210a7f
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+    android:id="@+id/frame_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+    android:background="#f4f8fb"
+    tools:context=".Fragments.ProfileFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<LinearLayout
+    android:paddingBottom="@dimen/_10sdp"
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+<<<<<<< HEAD
+    android:fitsSystemWindows="true"
+=======
+<<<<<<< HEAD
+    android:fitsSystemWindows="true"
+=======
+<<<<<<< HEAD
+    android:fitsSystemWindows="true"
+=======
+>>>>>>> 433a7a8f6be1ec33df1ad5a0a467e4cc51311ac5
+>>>>>>> caf7bddc2d52f3dc15f52cfc660b51e301f0af2a
+>>>>>>> b2a070ddbd2876710366d68b5da74da982219425
+>>>>>>> 4355c2a8a73521d1ecb4d1f751d6548779fa868a
+>>>>>>> e974059dd0de90e7d3240d726fc2feded53ec5eb
+>>>>>>> e59287e117049324a3d5334b2c013d43692f6d1a
+>>>>>>> d09538a264c42fde81a92a43fa207bd6ed210a7f
+    android:background="#f4f8fb"
+    tools:context=".Fragments.ProfileFragment">
+
+<LinearLayout
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/_20sdp"
+        android:paddingStart="@dimen/_20sdp"
+        android:paddingEnd="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/iv_profile_back"
+            android:layout_gravity="center"
+<<<<<<< HEAD
+            android:layout_width="@dimen/_12sdp"
+            android:layout_height="@dimen/_12sdp"
+=======
+<<<<<<< HEAD
+            android:layout_width="@dimen/_12sdp"
+            android:layout_height="@dimen/_12sdp"
+=======
+<<<<<<< HEAD
+            android:layout_width="@dimen/_12sdp"
+            android:layout_height="@dimen/_12sdp"
+=======
+<<<<<<< HEAD
+            android:layout_width="@dimen/_12sdp"
+            android:layout_height="@dimen/_12sdp"
+=======
+<<<<<<< HEAD
+            android:layout_width="@dimen/_12sdp"
+            android:layout_height="@dimen/_12sdp"
+=======
+<<<<<<< HEAD
+            android:layout_width="@dimen/_12sdp"
+            android:layout_height="@dimen/_12sdp"
+=======
+            android:layout_width="@dimen/_15sdp"
+            android:layout_height="@dimen/_15sdp"
+>>>>>>> 4355c2a8a73521d1ecb4d1f751d6548779fa868a
+>>>>>>> e974059dd0de90e7d3240d726fc2feded53ec5eb
+>>>>>>> e59287e117049324a3d5334b2c013d43692f6d1a
+>>>>>>> d09538a264c42fde81a92a43fa207bd6ed210a7f
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+            android:src="@mipmap/back_arrow"
+            />
+        <TextView
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/my_account"
+            android:textSize="@dimen/_16ssp"
+            android:textColor="#1e2930"
+<<<<<<< HEAD
+            android:fontFamily="@font/sfprotextmedium"
+=======
+<<<<<<< HEAD
+            android:fontFamily="@font/sfprotextmedium"
+=======
+            android:fontFamily="@font/proximanovamedium"
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+            android:layout_weight="1"
+            />
+        <TextView
+            android:paddingStart="@dimen/_5sdp"
+            android:paddingEnd="@dimen/_5sdp"
+            android:paddingTop="@dimen/_2sdp"
+            android:paddingBottom="@dimen/_2sdp"
+            android:background="@drawable/red_bg"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/logout"
+            android:fontFamily="@font/proximanovaregular"
+            android:textSize="@dimen/_10ssp"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_marginTop="@dimen/_20sdp"
+<<<<<<< HEAD
+    android:layout_marginStart="@dimen/_10sdp"
+=======
+<<<<<<< HEAD
+    android:layout_marginStart="@dimen/_10sdp"
+=======
+<<<<<<< HEAD
+    android:layout_marginStart="@dimen/_10sdp"
+=======
+<<<<<<< HEAD
+    android:layout_marginStart="@dimen/_10sdp"
+=======
+<<<<<<< HEAD
+    android:layout_marginStart="@dimen/_10sdp"
+=======
+    android:layout_marginStart="@dimen/_20sdp"
+>>>>>>> e974059dd0de90e7d3240d726fc2feded53ec5eb
+>>>>>>> e59287e117049324a3d5334b2c013d43692f6d1a
+>>>>>>> d09538a264c42fde81a92a43fa207bd6ed210a7f
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+            <ImageView
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+                android:id="@+id/profile_img"
+                android:layout_width="@dimen/_90sdp"
+                android:layout_height="@dimen/_90sdp"
+                android:src="@mipmap/profile_img"
+                />
+            <TextView
+                android:id="@+id/profile_name"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+                android:layout_width="@dimen/_90sdp"
+                android:layout_height="@dimen/_90sdp"
+=======
+<<<<<<< HEAD
+                android:layout_width="@dimen/_90sdp"
+                android:layout_height="@dimen/_90sdp"
+=======
+<<<<<<< HEAD
+                android:layout_width="@dimen/_90sdp"
+                android:layout_height="@dimen/_90sdp"
+=======
+<<<<<<< HEAD
+                android:layout_width="@dimen/_90sdp"
+                android:layout_height="@dimen/_90sdp"
+=======
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="@dimen/_80sdp"
+>>>>>>> b2a070ddbd2876710366d68b5da74da982219425
+>>>>>>> 4355c2a8a73521d1ecb4d1f751d6548779fa868a
+>>>>>>> e974059dd0de90e7d3240d726fc2feded53ec5eb
+>>>>>>> e59287e117049324a3d5334b2c013d43692f6d1a
+                android:src="@mipmap/profile_img"
+                />
+            <TextView
+>>>>>>> d09538a264c42fde81a92a43fa207bd6ed210a7f
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/christopher"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12ssp"
+                android:fontFamily="@font/proximanovamedium"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:orientation="vertical">
+
+            <TextView
+<<<<<<< HEAD
+                android:id="@+id/profile_mail"
+=======
+<<<<<<< HEAD
+                android:id="@+id/profile_mail"
+=======
+<<<<<<< HEAD
+                android:id="@+id/profile_mail"
+=======
+>>>>>>> d09538a264c42fde81a92a43fa207bd6ed210a7f
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/christopher_email"
+                android:textColor="#0852b4"
+                android:textSize="@dimen/_12ssp"
+                android:fontFamily="@font/proximanovaregular"
+                />
+            <TextView
+<<<<<<< HEAD
+                android:id="@+id/profile_num"
+=======
+<<<<<<< HEAD
+                android:id="@+id/profile_num"
+=======
+<<<<<<< HEAD
+                android:id="@+id/profile_num"
+=======
+>>>>>>> d09538a264c42fde81a92a43fa207bd6ed210a7f
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+                android:layout_marginTop="@dimen/_5sdp"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/followers"
+                android:textColor="#919191"
+                android:textSize="@dimen/_12ssp"
+                android:fontFamily="@font/proximanovaregular"
+                />
+            <LinearLayout
+                android:weightSum="2"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+            <TextView
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> e59287e117049324a3d5334b2c013d43692f6d1a
+>>>>>>> d09538a264c42fde81a92a43fa207bd6ed210a7f
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+                android:gravity="center"
+                android:id="@+id/tv_update_password"
+                android:padding="@dimen/_5sdp"
+                android:background="@drawable/purple_transparent_bg"
+                android:layout_width="@dimen/_100sdp"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+                android:id="@+id/tv_update_password"
+                android:padding="@dimen/_5sdp"
+                android:background="@drawable/purple_transparent_bg"
+                android:layout_width="wrap_content"
+>>>>>>> e974059dd0de90e7d3240d726fc2feded53ec5eb
+>>>>>>> e59287e117049324a3d5334b2c013d43692f6d1a
+>>>>>>> d09538a264c42fde81a92a43fa207bd6ed210a7f
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+                android:layout_height="wrap_content"
+                android:text="@string/update_pswrd"
+                android:textSize="@dimen/_10ssp"
+                android:fontFamily="@font/proximanovaregular"
+                android:textColor="#a32788"
+                />
+
+                <TextView
+<<<<<<< HEAD
+                    android:id="@+id/edit_profile"
+=======
+<<<<<<< HEAD
+                    android:id="@+id/edit_profile"
+=======
+<<<<<<< HEAD
+                    android:id="@+id/edit_profile"
+=======
+<<<<<<< HEAD
+                    android:id="@+id/edit_profile"
+=======
+<<<<<<< HEAD
+                    android:id="@+id/edit_profile"
+=======
+<<<<<<< HEAD
+                    android:id="@+id/edit_profile"
+=======
+>>>>>>> 4355c2a8a73521d1ecb4d1f751d6548779fa868a
+>>>>>>> e974059dd0de90e7d3240d726fc2feded53ec5eb
+>>>>>>> e59287e117049324a3d5334b2c013d43692f6d1a
+>>>>>>> d09538a264c42fde81a92a43fa207bd6ed210a7f
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="@dimen/_5sdp"
+                    android:background="@drawable/purple_transparent_bg"
+                    android:layout_marginStart="@dimen/_8sdp"
+<<<<<<< HEAD
+                    android:layout_width="@dimen/_70sdp"
+=======
+<<<<<<< HEAD
+                    android:layout_width="@dimen/_70sdp"
+=======
+<<<<<<< HEAD
+                    android:layout_width="@dimen/_70sdp"
+=======
+<<<<<<< HEAD
+                    android:layout_width="@dimen/_70sdp"
+=======
+<<<<<<< HEAD
+                    android:layout_width="@dimen/_80sdp"
+=======
+                    android:layout_width="wrap_content"
+>>>>>>> e974059dd0de90e7d3240d726fc2feded53ec5eb
+>>>>>>> e59287e117049324a3d5334b2c013d43692f6d1a
+>>>>>>> d09538a264c42fde81a92a43fa207bd6ed210a7f
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+                    android:layout_height="wrap_content"
+                    android:text="@string/edit_profile"
+                    android:textSize="@dimen/_10ssp"
+                    android:textColor="#0065ea"
+                    android:fontFamily="@font/proximanovaregular"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+</LinearLayout>
+<View
+    android:layout_margin="@dimen/_10sdp"
+    android:layout_width="match_parent"
+    android:layout_height="0.5dp"
+    android:background="#919191"
+    />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_margin="@dimen/_5sdp"
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        tools:listitem="@layout/profile_data"
+>>>>>>> 164bb6b7ab55febc6716a7e17a6c5812824b6705
+>>>>>>> 433a7a8f6be1ec33df1ad5a0a467e4cc51311ac5
+>>>>>>> caf7bddc2d52f3dc15f52cfc660b51e301f0af2a
+>>>>>>> b2a070ddbd2876710366d68b5da74da982219425
+>>>>>>> 4355c2a8a73521d1ecb4d1f751d6548779fa868a
+>>>>>>> e974059dd0de90e7d3240d726fc2feded53ec5eb
+>>>>>>> e59287e117049324a3d5334b2c013d43692f6d1a
+>>>>>>> d09538a264c42fde81a92a43fa207bd6ed210a7f
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+        />
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:gravity="center"
+<<<<<<< HEAD
+        android:elevation="@dimen/_5sdp"
+=======
+<<<<<<< HEAD
+        android:elevation="@dimen/_5sdp"
+=======
+<<<<<<< HEAD
+        android:elevation="@dimen/_5sdp"
+=======
+<<<<<<< HEAD
+        android:elevation="@dimen/_5sdp"
+=======
+<<<<<<< HEAD
+        android:elevation="@dimen/_5sdp"
+=======
+        android:elevation="@dimen/_10sdp"
+>>>>>>> e974059dd0de90e7d3240d726fc2feded53ec5eb
+>>>>>>> e59287e117049324a3d5334b2c013d43692f6d1a
+>>>>>>> d09538a264c42fde81a92a43fa207bd6ed210a7f
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+        android:outlineSpotShadowColor="#0f000000"
+        android:padding="@dimen/_5sdp"
+        android:paddingStart="@dimen/_10sdp"
+        android:paddingEnd="@dimen/_10sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tv_clear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/clear"
+                    android:textColor="#0065ea"
+                    android:textSize="@dimen/_14ssp"
+<<<<<<< HEAD
+                    android:fontFamily="@font/proximanovaregular"
+=======
+<<<<<<< HEAD
+                    android:fontFamily="@font/proximanovaregular"
+=======
+<<<<<<< HEAD
+                    android:fontFamily="@font/proximanovaregular"
+=======
+<<<<<<< HEAD
+                    android:fontFamily="@font/proximanovaregular"
+=======
+<<<<<<< HEAD
+                    android:fontFamily="@font/proximanovaregular"
+=======
+<<<<<<< HEAD
+                    android:fontFamily="@font/proximanovaregular"
+=======
+<<<<<<< HEAD
+                    android:fontFamily="@font/proximanovaregular"
+=======
+<<<<<<< HEAD
+                    android:fontFamily="@font/proximanovaregular"
+=======
+<<<<<<< HEAD
+                    android:fontFamily="@font/proximanovaregular"
+=======
+<<<<<<< HEAD
+                    android:fontFamily="@font/proximanovaregular"
+=======
+                    android:fontFamily="@font/proximanovamedium"
+>>>>>>> 164bb6b7ab55febc6716a7e17a6c5812824b6705
+>>>>>>> 433a7a8f6be1ec33df1ad5a0a467e4cc51311ac5
+>>>>>>> caf7bddc2d52f3dc15f52cfc660b51e301f0af2a
+>>>>>>> b2a070ddbd2876710366d68b5da74da982219425
+>>>>>>> 4355c2a8a73521d1ecb4d1f751d6548779fa868a
+>>>>>>> e974059dd0de90e7d3240d726fc2feded53ec5eb
+>>>>>>> e59287e117049324a3d5334b2c013d43692f6d1a
+>>>>>>> d09538a264c42fde81a92a43fa207bd6ed210a7f
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+                    />
+                <TextView
+                    android:id="@+id/tv_typing_data_title"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/typing_data"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_14ssp"
+<<<<<<< HEAD
+                    android:fontFamily="@font/proximanovaregular"
+=======
+<<<<<<< HEAD
+                    android:fontFamily="@font/proximanovaregular"
+=======
+<<<<<<< HEAD
+                    android:fontFamily="@font/proximanovaregular"
+=======
+<<<<<<< HEAD
+                    android:fontFamily="@font/proximanovaregular"
+=======
+<<<<<<< HEAD
+                    android:fontFamily="@font/proximanovaregular"
+=======
+<<<<<<< HEAD
+                    android:fontFamily="@font/proximanovaregular"
+=======
+<<<<<<< HEAD
+                    android:fontFamily="@font/proximanovaregular"
+=======
+<<<<<<< HEAD
+                    android:fontFamily="@font/proximanovaregular"
+=======
+<<<<<<< HEAD
+                    android:fontFamily="@font/proximanovaregular"
+=======
+<<<<<<< HEAD
+                    android:fontFamily="@font/proximanovaregular"
+=======
+                    android:fontFamily="@font/proximanovamedium"
+>>>>>>> 164bb6b7ab55febc6716a7e17a6c5812824b6705
+>>>>>>> 433a7a8f6be1ec33df1ad5a0a467e4cc51311ac5
+>>>>>>> caf7bddc2d52f3dc15f52cfc660b51e301f0af2a
+>>>>>>> b2a070ddbd2876710366d68b5da74da982219425
+>>>>>>> 4355c2a8a73521d1ecb4d1f751d6548779fa868a
+>>>>>>> e974059dd0de90e7d3240d726fc2feded53ec5eb
+>>>>>>> e59287e117049324a3d5334b2c013d43692f6d1a
+>>>>>>> d09538a264c42fde81a92a43fa207bd6ed210a7f
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/v"
+            android:textColor="@color/black"
+            android:fontFamily="@font/proximanovaregular"
+            android:textSize="@dimen/_22ssp"
+            android:rotation="270"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
+<<<<<<< HEAD
+    </ScrollView>
+=======
+<<<<<<< HEAD
+    </ScrollView>
+=======
+
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+</FrameLayout>

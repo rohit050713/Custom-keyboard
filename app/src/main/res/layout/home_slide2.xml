@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@mipmap/man_using_cellphone"
+    android:gravity="center"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+    android:fitsSystemWindows="true"
+>>>>>>> 433a7a8f6be1ec33df1ad5a0a467e4cc51311ac5
+>>>>>>> caf7bddc2d52f3dc15f52cfc660b51e301f0af2a
+>>>>>>> b2a070ddbd2876710366d68b5da74da982219425
+>>>>>>> 4355c2a8a73521d1ecb4d1f751d6548779fa868a
+>>>>>>> e974059dd0de90e7d3240d726fc2feded53ec5eb
+>>>>>>> e59287e117049324a3d5334b2c013d43692f6d1a
+>>>>>>> d09538a264c42fde81a92a43fa207bd6ed210a7f
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_marginTop="@dimen/_50sdp"
+        android:textAllCaps="true"
+<<<<<<< HEAD
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:layout_gravity="end"
+        android:gravity="center"
+=======
+<<<<<<< HEAD
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:layout_gravity="end"
+        android:gravity="center"
+=======
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_gravity="end"
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/language"
+        android:textColor="@color/white"
+<<<<<<< HEAD
+        android:textSize="@dimen/_35ssp"
+=======
+<<<<<<< HEAD
+        android:textSize="@dimen/_35ssp"
+=======
+        android:textSize="@dimen/_40ssp"
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+        android:fontFamily="@font/sfprotextbold"></TextView>
+
+    <LinearLayout
+        android:layout_marginTop="-5dp"
+        android:layout_gravity="end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+<<<<<<< HEAD
+        android:layout_marginEnd="@dimen/_22sdp"
+=======
+<<<<<<< HEAD
+        android:layout_marginEnd="@dimen/_22sdp"
+=======
+        android:layout_marginEnd="@dimen/_12sdp"
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+        android:orientation="vertical">
+    <TextView
+        android:layout_marginEnd="@dimen/_3sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/thats"
+        android:layout_gravity="end"
+        android:textSize="@dimen/_12ssp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/sfprotextsemibold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:textColor="#fcd035"
+        android:textSize="@dimen/_12ssp"
+        android:text="@string/typing"
+        android:fontFamily="@font/sfprotextsemibold"
+        />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+    android:fitsSystemWindows="true"
+    android:background="@drawable/pink_gradient"
+    tools:context=".Activity.Terms">
+    <LinearLayout
+        android:gravity="center"
+
+<<<<<<< HEAD
+=======
+=======
+    android:background="@drawable/pink_gradient"
+    tools:context=".Activity.Terms">
+    <LinearLayout
+<<<<<<< HEAD
+        android:gravity="center"
+
+=======
+>>>>>>> d09538a264c42fde81a92a43fa207bd6ed210a7f
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@mipmap/signin_bg1"
+        >
+
+    <TextView
+<<<<<<< HEAD
+        android:layout_marginTop="@dimen/_20sdp"
+=======
+<<<<<<< HEAD
+        android:layout_marginTop="@dimen/_20sdp"
+=======
+<<<<<<< HEAD
+        android:layout_marginTop="@dimen/_40sdp"
+=======
+<<<<<<< HEAD
+        android:layout_marginTop="@dimen/_40sdp"
+=======
+<<<<<<< HEAD
+        android:layout_marginTop="@dimen/_40sdp"
+=======
+        android:layout_marginTop="@dimen/_50sdp"
+>>>>>>> e974059dd0de90e7d3240d726fc2feded53ec5eb
+>>>>>>> e59287e117049324a3d5334b2c013d43692f6d1a
+>>>>>>> d09538a264c42fde81a92a43fa207bd6ed210a7f
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/terms_condition"
+        android:textSize="@dimen/_16ssp"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:fontFamily="@font/sfprotextmedium"/>
+    <TextView
+        android:padding="@dimen/_10sdp"
+<<<<<<< HEAD
+        android:layout_width="@dimen/_300sdp"
+=======
+<<<<<<< HEAD
+        android:layout_width="@dimen/_300sdp"
+=======
+<<<<<<< HEAD
+        android:layout_width="@dimen/_300sdp"
+=======
+        android:layout_width="match_parent"
+>>>>>>> d09538a264c42fde81a92a43fa207bd6ed210a7f
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+        android:layout_height="match_parent"
+        android:text="@string/terms_content"
+        android:textColor="@color/white"
+        android:fontFamily="@font/sfprotextregular"
+<<<<<<< HEAD
+        android:textSize="@dimen/_11ssp"
+=======
+<<<<<<< HEAD
+        android:textSize="@dimen/_11ssp"
+=======
+<<<<<<< HEAD
+        android:textSize="@dimen/_11ssp"
+=======
+<<<<<<< HEAD
+        android:textSize="@dimen/_11ssp"
+=======
+<<<<<<< HEAD
+        android:textSize="@dimen/_11ssp"
+=======
+        android:textSize="@dimen/_12ssp"
+>>>>>>> e974059dd0de90e7d3240d726fc2feded53ec5eb
+>>>>>>> e59287e117049324a3d5334b2c013d43692f6d1a
+>>>>>>> d09538a264c42fde81a92a43fa207bd6ed210a7f
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+        android:layout_weight="1"
+        />
+
+        <CheckBox
+            android:id="@+id/terms_checkbox"
+            android:layout_marginBottom="@dimen/_20sdp"
+<<<<<<< HEAD
+            android:layout_marginLeft="@dimen/_15sdp"
+=======
+<<<<<<< HEAD
+            android:layout_marginLeft="@dimen/_15sdp"
+=======
+<<<<<<< HEAD
+            android:layout_marginLeft="@dimen/_15sdp"
+=======
+            android:layout_marginLeft="@dimen/_10sdp"
+>>>>>>> d09538a264c42fde81a92a43fa207bd6ed210a7f
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+            android:padding="@dimen/_5sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/terms_check"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark"
+            android:layout_gravity="left"
+            android:fontFamily="@font/sfprotextregular"
+            android:textSize="@dimen/_12ssp"/>
+    </LinearLayout>
+</LinearLayout>
+</layout>

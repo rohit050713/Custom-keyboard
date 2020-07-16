@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#f4f8fb"
+    tools:context=".Fragments.FragmentSavedWord">
+<LinearLayout
+    android:outlineSpotShadowColor="#29000000"
+    android:elevation="@dimen/_10sdp"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginStart="@dimen/_20sdp"
+<<<<<<< HEAD
+            android:id="@+id/iv_mywords_back"
+=======
+<<<<<<< HEAD
+            android:id="@+id/iv_mywords_back"
+=======
+<<<<<<< HEAD
+            android:id="@+id/iv_mywords_back"
+=======
+<<<<<<< HEAD
+            android:id="@+id/iv_mywords_back"
+=======
+<<<<<<< HEAD
+            android:id="@+id/iv_mywords_back"
+=======
+            android:id="@+id/iv_profile_back"
+>>>>>>> e974059dd0de90e7d3240d726fc2feded53ec5eb
+>>>>>>> e59287e117049324a3d5334b2c013d43692f6d1a
+>>>>>>> d09538a264c42fde81a92a43fa207bd6ed210a7f
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+            android:layout_gravity="center"
+            android:layout_width="@dimen/_12sdp"
+            android:layout_height="@dimen/_12sdp"
+            android:src="@mipmap/back_arrow"
+            />
+        <TextView
+            android:layout_marginEnd="@dimen/_32sdp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/my_words"
+            android:textSize="@dimen/_16ssp"
+            android:textColor="#1e2930"
+<<<<<<< HEAD
+            android:fontFamily="@font/sfprotextmedium"
+=======
+<<<<<<< HEAD
+            android:fontFamily="@font/sfprotextmedium"
+=======
+            android:fontFamily="@font/proximanovamedium"
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+            />
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.SearchView
+        android:layout_marginTop="@dimen/_20sdp"
+        android:elevation="@dimen/_5sdp"
+        android:layout_width="@dimen/_275sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        app:queryHint="Search"
+        app:iconifiedByDefault="false"
+        android:theme="@style/SearchViewTheme"
+        android:layout_weight="1"
+        app:searchIcon="@drawable/search_icon"
+        android:background="@drawable/search_bg"
+        app:queryBackground="@android:color/transparent"
+
+        />
+
+
+    <TextView
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginStart="@dimen/_25sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/my_languages"
+        android:textColor="#1fa89c"
+        android:fontFamily="@font/sfprotextregular"
+        android:textSize="@dimen/_12ssp"
+
+        />
+    <LinearLayout
+        android:background="#a5e2ec"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:padding="@dimen/_8sdp"
+        android:paddingStart="@dimen/_35sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/english"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_13ssp"
+            android:fontFamily="@font/sfprotextmedium"
+            android:layout_weight="1"
+
+            />
+        <TextView
+<<<<<<< HEAD
+            android:id="@+id/tv_add"
+=======
+<<<<<<< HEAD
+            android:id="@+id/tv_add"
+=======
+<<<<<<< HEAD
+            android:id="@+id/tv_add"
+=======
+<<<<<<< HEAD
+            android:id="@+id/tv_add"
+=======
+<<<<<<< HEAD
+            android:id="@+id/tv_add"
+=======
+>>>>>>> e974059dd0de90e7d3240d726fc2feded53ec5eb
+>>>>>>> e59287e117049324a3d5334b2c013d43692f6d1a
+>>>>>>> d09538a264c42fde81a92a43fa207bd6ed210a7f
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="@dimen/_10ssp"
+<<<<<<< HEAD
+            android:fontFamily="@font/sfprotextmedium"
+=======
+<<<<<<< HEAD
+            android:fontFamily="@font/sfprotextmedium"
+=======
+            android:fontFamily="@font/proximanovamedium"
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/edit"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_10ssp"
+<<<<<<< HEAD
+            android:fontFamily="@font/sfprotextmedium"
+=======
+<<<<<<< HEAD
+            android:fontFamily="@font/sfprotextmedium"
+=======
+            android:fontFamily="@font/proximanovamedium"
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+            />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/saved_words_recyclerView"
+        tools:listitem="@layout/data_saved_word"
+        />
+    <View
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#707070"
+        />
+    <LinearLayout
+        android:paddingTop="@dimen/_5sdp"
+        android:paddingBottom="@dimen/_5sdp"
+        android:paddingStart="@dimen/_25sdp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:background="@color/white"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/swahil"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12ssp"
+                android:fontFamily="@font/sfprotextmedium"
+                android:layout_weight="1"
+
+                />
+            <TextView
+                android:gravity="center"
+                android:layout_marginStart="@dimen/_50sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/add"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_10ssp"
+<<<<<<< HEAD
+                android:fontFamily="@font/sfprotextmedium"
+=======
+<<<<<<< HEAD
+                android:fontFamily="@font/sfprotextmedium"
+=======
+                android:fontFamily="@font/proximanovamedium"
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/edit"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_10ssp"
+<<<<<<< HEAD
+                android:fontFamily="@font/sfprotextmedium"
+=======
+<<<<<<< HEAD
+                android:fontFamily="@font/sfprotextmedium"
+=======
+                android:fontFamily="@font/proximanovamedium"
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+                />
+        </LinearLayout>
+     <TextView
+         android:paddingStart="@dimen/_1sdp"
+         android:layout_marginTop="@dimen/_5sdp"
+         android:gravity="center"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textSize="@dimen/_8ssp"
+         android:text="@string/kiswahi"
+         android:textColor="#84898a"
+         android:fontFamily="@font/sfprotextregular"
+         />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#707070"
+        />
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:paddingTop="@dimen/_5sdp"
+        android:paddingBottom="@dimen/_5sdp"
+        android:paddingStart="@dimen/_25sdp"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:background="@color/white"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/swahil"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12ssp"
+                android:fontFamily="@font/sfprotextmedium"
+                android:layout_weight="1"
+
+                />
+            <TextView
+                android:gravity="center"
+                android:layout_marginStart="@dimen/_50sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/add"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_10ssp"
+<<<<<<< HEAD
+                android:fontFamily="@font/sfprotextmedium"
+=======
+<<<<<<< HEAD
+                android:fontFamily="@font/sfprotextmedium"
+=======
+                android:fontFamily="@font/proximanovamedium"
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/edit"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_10ssp"
+<<<<<<< HEAD
+                android:fontFamily="@font/sfprotextmedium"
+=======
+<<<<<<< HEAD
+                android:fontFamily="@font/sfprotextmedium"
+=======
+                android:fontFamily="@font/proximanovamedium"
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+                />
+        </LinearLayout>
+        <TextView
+            android:paddingStart="@dimen/_1sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_8ssp"
+            android:text="@string/kiswahi"
+            android:textColor="#84898a"
+            android:fontFamily="@font/sfprotextregular"
+            />
+    </LinearLayout>
+
+</LinearLayout>
+
+</FrameLayout>

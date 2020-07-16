@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/pink_gradient"
+    tools:context=".Activity.LoginOption">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/ll2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/login_option_bg"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        >
+
+        <LinearLayout
+            android:id="@+id/ll1"
+            android:layout_width="match_parent"
+<<<<<<< HEAD
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toTopOf="@id/skip"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="@dimen/_80sdp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:src="@mipmap/logo" />
+
+            <TextView
+                android:layout_width="@dimen/_260sdp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+=======
+<<<<<<< HEAD
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toTopOf="@id/skip"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="@dimen/_80sdp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:src="@mipmap/logo" />
+
+            <TextView
+                android:layout_width="@dimen/_260sdp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+=======
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+    <ImageView
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:layout_gravity="center"
+        android:src="@mipmap/logo"/>
+    <TextView
+        android:layout_marginTop="@dimen/_10sdp"
+<<<<<<< HEAD
+        android:layout_width="@dimen/_260sdp"
+=======
+<<<<<<< HEAD
+        android:layout_width="@dimen/_260sdp"
+=======
+        android:layout_width="@dimen/_250sdp"
+>>>>>>> e59287e117049324a3d5334b2c013d43692f6d1a
+>>>>>>> d09538a264c42fde81a92a43fa207bd6ed210a7f
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Backup and sync your personalized Words and Emojis"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_15ssp"
+        android:fontFamily="@font/sfprotextmedium"
+        />
+    <TextView
+        android:padding="@dimen/_10sdp"
+        android:layout_gravity="center"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text=" Backup what you have typed and sync your dictionary and new words across devices.You can also restore your dictionary in the future"
+        android:textSize="@dimen/_10ssp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/sfprotextregular"
+        />
+
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/_60sdp"
+        android:padding="@dimen/_10sdp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/google_bg"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_width="@dimen/_15sdp"
+            android:layout_height="@dimen/_15sdp"
+            android:src="@mipmap/google_icon"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:layout_marginEnd="@dimen/_30sdp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/google"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp"
+            android:fontFamily="@font/sfprotextmedium"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:padding="@dimen/_10sdp"
+        android:layout_gravity="center"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/facebook_bg"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_width="@dimen/_15sdp"
+            android:layout_height="@dimen/_15sdp"
+            android:src="@mipmap/facebook_icon"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:layout_marginEnd="@dimen/_30sdp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/facebook"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp"
+            android:fontFamily="@font/sfprotextmedium"
+            />
+    </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="@font/sfprotextmedium"
+                android:gravity="center"
+                android:text="Backup and sync your personalized Words and Emojis"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_15ssp" />
+
+            <TextView
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/sfprotextregular"
+                android:gravity="center"
+                android:padding="@dimen/_10sdp"
+                android:text=" Backup what you have typed and sync your dictionary and new words across devices.You can also restore your dictionary in the future"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_10ssp" />
+
+
+            <LinearLayout
+                android:layout_width="@dimen/_240sdp"
+                android:layout_height="wrap_content"
+<<<<<<< HEAD
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_40sdp"
+                android:background="@drawable/google_bg"
+=======
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_40sdp"
+                android:background="@drawable/google_bg"
+                android:gravity="center"
+<<<<<<< HEAD
+                android:orientation="horizontal"
+                android:padding="@dimen/_10sdp">
+
+                <ImageView
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:src="@mipmap/google_icon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="@dimen/_30sdp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/sfprotextmedium"
+                    android:gravity="center"
+                    android:text="@string/google"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_12ssp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="@dimen/_240sdp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/facebook_bg"
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="@dimen/_10sdp">
+
+                <ImageView
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/_5sdp"
+<<<<<<< HEAD
+                    android:src="@mipmap/google_icon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="@dimen/_30sdp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/sfprotextmedium"
+                    android:gravity="center"
+                    android:text="@string/google"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_12ssp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="@dimen/_240sdp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/facebook_bg"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="@dimen/_10sdp">
+
+                <ImageView
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/_5sdp"
+=======
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+                    android:src="@mipmap/facebook_icon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="@dimen/_30sdp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/sfprotextmedium"
+                    android:gravity="center"
+                    android:text="@string/facebook"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_12ssp" />
+            </LinearLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="@dimen/_5sdp">
+
+<<<<<<< HEAD
+                <Button
+                    android:id="@+id/btn_create_account"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+=======
+                <Button
+                    android:id="@+id/btn_create_account"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+=======
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_create_account"
+<<<<<<< HEAD
+                    android:layout_width="@dimen/_230sdp"
+                    android:layout_height="wrap_content"
+=======
+<<<<<<< HEAD
+                    android:layout_width="@dimen/_230sdp"
+                    android:layout_height="wrap_content"
+=======
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+<<<<<<< HEAD
+                    android:layout_marginStart="@dimen/_10sdp"
+=======
+<<<<<<< HEAD
+                    android:layout_marginStart="@dimen/_14sdp"
+=======
+                    android:layout_marginStart="@dimen/_15sdp"
+>>>>>>> 4355c2a8a73521d1ecb4d1f751d6548779fa868a
+>>>>>>> e974059dd0de90e7d3240d726fc2feded53ec5eb
+>>>>>>> e59287e117049324a3d5334b2c013d43692f6d1a
+>>>>>>> d09538a264c42fde81a92a43fa207bd6ed210a7f
+                    android:layout_marginEnd="@dimen/_10sdp"
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+                    android:layout_weight="1"
+                    android:background="@drawable/login_option_btn_green"
+                    android:fontFamily="@font/sfprotextregular"
+                    android:gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:text="@string/create_account"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+                    android:textSize="@dimen/_11ssp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toLeftOf="@id/btn_signin"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.461" />
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+                    android:textSize="@dimen/_11ssp" />
+=======
+<<<<<<< HEAD
+                    android:textSize="@dimen/_11ssp" />
+=======
+<<<<<<< HEAD
+                    android:textSize="@dimen/_11ssp" />
+=======
+<<<<<<< HEAD
+                    android:textSize="@dimen/_11ssp" />
+=======
+                    android:textSize="@dimen/_12ssp" />
+>>>>>>> 4355c2a8a73521d1ecb4d1f751d6548779fa868a
+>>>>>>> e974059dd0de90e7d3240d726fc2feded53ec5eb
+>>>>>>> e59287e117049324a3d5334b2c013d43692f6d1a
+>>>>>>> d09538a264c42fde81a92a43fa207bd6ed210a7f
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+
+                <Button
+
+                    android:id="@+id/btn_signin"
+<<<<<<< HEAD
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_bg"
+                    android:fontFamily="@font/sfprotextregular"
+                    android:gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:paddingStart="@dimen/_30sdp"
+                    android:paddingEnd="@dimen/_30sdp"
+                    android:text="@string/sign_in"
+                    android:textAllCaps="false"
+                    android:textColor="#5e5c5c"
+                    android:textSize="@dimen/_11ssp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toRightOf="@id/btn_create_account"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.461" />
+=======
+<<<<<<< HEAD
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_bg"
+                    android:fontFamily="@font/sfprotextregular"
+                    android:gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:paddingStart="@dimen/_30sdp"
+                    android:paddingEnd="@dimen/_30sdp"
+                    android:text="@string/sign_in"
+                    android:textAllCaps="false"
+                    android:textColor="#5e5c5c"
+                    android:textSize="@dimen/_11ssp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toRightOf="@id/btn_create_account"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.461" />
+=======
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_weight="1"
+                    android:layout_width="@dimen/_230sdp"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_10sdp"
+                    android:text="@string/sign_in"
+                    android:gravity="center"
+                    android:textColor="#5e5c5c"
+                    android:fontFamily="@font/sfprotextregular"
+                    android:textSize="@dimen/_11ssp"
+                    android:textAllCaps="false"
+                    android:background="@drawable/white_bg"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+                    android:layout_marginEnd="@dimen/_10sdp"
+=======
+                    android:layout_marginEnd="@dimen/_14sdp"
+>>>>>>> e974059dd0de90e7d3240d726fc2feded53ec5eb
+>>>>>>> e59287e117049324a3d5334b2c013d43692f6d1a
+>>>>>>> d09538a264c42fde81a92a43fa207bd6ed210a7f
+                    />
+
+            </LinearLayout>
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </LinearLayout>
+
+        <TextView
+
+            android:id="@+id/skip"
+            android:padding="@dimen/_3sdp"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="wrap_content"
+            android:text="@string/skip"
+            android:gravity="center"
+            android:alpha="0.5"
+            android:textColor="@color/white"
+            android:fontFamily="@font/sfprotextregular"
+            android:layout_gravity="center|bottom"
+            android:textSize="@dimen/_12ssp"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:background="@drawable/skip_bg"
+            app:layout_constraintTop_toBottomOf="@id/ll1"
+            app:layout_constraintBottom_toBottomOf="@id/ll2"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:background="@drawable/dialog_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:padding="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:id="@+id/tv_addword_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/x"
+                android:textSize="@dimen/_16ssp"
+                android:layout_gravity="end"
+                android:gravity="end"
+                android:fontFamily="@font/proximanovamedium"
+                android:textColor="#696d6e"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/add_word"
+                android:textSize="@dimen/_16ssp"
+                android:textColor="#a32788"
+                android:layout_gravity="center"
+                android:gravity="center"
+<<<<<<< HEAD
+                android:fontFamily="@font/sfprotextmedium"
+=======
+<<<<<<< HEAD
+                android:fontFamily="@font/sfprotextmedium"
+=======
+                android:fontFamily="@font/proximanovamedium"
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+                />
+            <FrameLayout
+                android:elevation="@dimen/_3sdp"
+                android:paddingStart="@dimen/_10sdp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:padding="@dimen/_5sdp"
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:orientation="horizontal"
+                android:background="@drawable/white_bg"
+
+                >
+                <EditText
+                    android:layout_gravity="center"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:maxLength="25"
+<<<<<<< HEAD
+                    android:id="@+id/et_type_words"
+=======
+<<<<<<< HEAD
+                    android:id="@+id/et_type_words"
+=======
+<<<<<<< HEAD
+                    android:id="@+id/et_type_words"
+=======
+<<<<<<< HEAD
+                    android:id="@+id/et_type_words"
+=======
+                    android:id="@+id/et_reset_password"
+>>>>>>> e59287e117049324a3d5334b2c013d43692f6d1a
+>>>>>>> d09538a264c42fde81a92a43fa207bd6ed210a7f
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/white_bg"
+                    android:hint="@string/type_your_word"
+                    android:textColorHint="@color/black"
+<<<<<<< HEAD
+                    android:textSize="@dimen/_12ssp"
+=======
+<<<<<<< HEAD
+                    android:textSize="@dimen/_12ssp"
+=======
+<<<<<<< HEAD
+                    android:textSize="@dimen/_10ssp"
+=======
+<<<<<<< HEAD
+                    android:textSize="@dimen/_10ssp"
+=======
+                    android:textSize="@dimen/_12ssp"
+>>>>>>> e59287e117049324a3d5334b2c013d43692f6d1a
+>>>>>>> d09538a264c42fde81a92a43fa207bd6ed210a7f
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+                    android:fontFamily="@font/sfprotextregular"
+                    />
+
+            </FrameLayout>
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="wrap_content"
+                android:text="@string/insert"
+<<<<<<< HEAD
+                android:textSize="@dimen/_8ssp"
+=======
+<<<<<<< HEAD
+                android:textSize="@dimen/_8ssp"
+=======
+<<<<<<< HEAD
+                android:textSize="@dimen/_8ssp"
+=======
+<<<<<<< HEAD
+                android:textSize="@dimen/_8ssp"
+=======
+                android:textSize="@dimen/_10ssp"
+>>>>>>> e59287e117049324a3d5334b2c013d43692f6d1a
+>>>>>>> d09538a264c42fde81a92a43fa207bd6ed210a7f
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+                android:textColor="@android:color/darker_gray"
+                android:fontFamily="@font/sfprotextregular"
+                />
+
+            <TextView
+                android:visibility="gone"
+                android:layout_gravity="center"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> d09538a264c42fde81a92a43fa207bd6ed210a7f
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+                android:id="@+id/tv_type_words_error"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="wrap_content"
+                android:text="@string/enter_words_error"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+                android:id="@+id/tv_reset_password_error"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="wrap_content"
+                android:text="@string/reset_password_error"
+>>>>>>> e59287e117049324a3d5334b2c013d43692f6d1a
+>>>>>>> d09538a264c42fde81a92a43fa207bd6ed210a7f
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+                android:textSize="@dimen/_10ssp"
+                android:textColor="#00cecc"
+                android:fontFamily="@font/sfprotextregular"
+                />
+
+
+                <Spinner
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> d09538a264c42fde81a92a43fa207bd6ed210a7f
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:background="@drawable/spinner_bg"
+                    android:elevation="@dimen/_3sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:id="@+id/sp_reset_cnfpassword"
+                    android:layout_width="@dimen/_250sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:theme="@style/SpinnerTheme"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+                    android:elevation="@dimen/_3sdp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:inputType="textPassword"
+                    android:singleLine="true"
+                    android:maxLength="20"
+                    android:id="@+id/et_reset_cnfpassword"
+                    android:layout_width="@dimen/_250sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="@drawable/white_bg"
+                    android:textSize="@dimen/_12ssp"
+                    android:fontFamily="@font/sfprotextregular"
+>>>>>>> e59287e117049324a3d5334b2c013d43692f6d1a
+>>>>>>> d09538a264c42fde81a92a43fa207bd6ed210a7f
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+                    />
+
+            <TextView
+                android:visibility="gone"
+                android:layout_gravity="center"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> d09538a264c42fde81a92a43fa207bd6ed210a7f
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+                android:id="@+id/tv_language_select_error"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="wrap_content"
+                android:text="@string/language_error"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+                android:id="@+id/tv_reset_cnf_pswrd_error"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="wrap_content"
+                android:text="@string/reset_cnf_password_error"
+>>>>>>> e59287e117049324a3d5334b2c013d43692f6d1a
+>>>>>>> d09538a264c42fde81a92a43fa207bd6ed210a7f
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+                android:textSize="@dimen/_10ssp"
+                android:textColor="#00cecc"
+                android:fontFamily="@font/sfprotextregular"
+                />
+
+
+                <TextView
+                    android:background="@drawable/login_option_btn_green"
+                    android:layout_marginTop="@dimen/_30sdp"
+                    android:layout_marginBottom="@dimen/_20sdp"
+                    android:id="@+id/tv_add_word"
+                    android:layout_width="@dimen/_250sdp"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_10sdp"
+                    android:text="@string/add"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/sfprotextregular"
+                    android:textSize="@dimen/_12ssp"
+                    android:layout_weight="1"
+                    />
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

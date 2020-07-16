@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle" xmlns:android="http://schemas.android.com/apk/res/android">
+<corners
+<<<<<<< HEAD
+   android:topLeftRadius="@dimen/_20sdp"
+    android:topRightRadius="@dimen/_20sdp"
+=======
+<<<<<<< HEAD
+   android:topLeftRadius="@dimen/_20sdp"
+    android:topRightRadius="@dimen/_20sdp"
+=======
+<<<<<<< HEAD
+   android:topLeftRadius="@dimen/_20sdp"
+    android:topRightRadius="@dimen/_20sdp"
+=======
+<<<<<<< HEAD
+   android:topLeftRadius="@dimen/_20sdp"
+    android:topRightRadius="@dimen/_20sdp"
+=======
+<<<<<<< HEAD
+   android:topLeftRadius="@dimen/_20sdp"
+    android:topRightRadius="@dimen/_20sdp"
+=======
+<<<<<<< HEAD
+   android:topLeftRadius="@dimen/_20sdp"
+    android:topRightRadius="@dimen/_20sdp"
+=======
+<<<<<<< HEAD
+   android:topLeftRadius="@dimen/_20sdp"
+    android:topRightRadius="@dimen/_20sdp"
+=======
+    android:radius="@dimen/_20sdp"
+>>>>>>> b2a070ddbd2876710366d68b5da74da982219425
+>>>>>>> 4355c2a8a73521d1ecb4d1f751d6548779fa868a
+>>>>>>> e974059dd0de90e7d3240d726fc2feded53ec5eb
+>>>>>>> e59287e117049324a3d5334b2c013d43692f6d1a
+>>>>>>> d09538a264c42fde81a92a43fa207bd6ed210a7f
+>>>>>>> 57b3d49b88b962e819237893ebf8b421bf067efb
+>>>>>>> 02bb1b856fec1d032aa22613a7c3b54da93eb1d7
+    />
+    <solid
+        android:color="@color/white"
+        />
+
+</shape>
